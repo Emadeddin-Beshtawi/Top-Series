@@ -1,9 +1,9 @@
-var name = prompt("what's you'r name?")
+var name = prompt("what's your name?")
 console.log(name)
-var age = prompt("what's you'r Age?")
+var age = prompt("what's your Age?")
 console.log(age)
 alert("welcome to Top-Series " + name + ":)" )
-var favSeries = prompt("what's you'r fav Series?")
+var favSeries = prompt("what's your fav Series?")
 console.log(favSeries)
 
 var parts = prompt("How many parts do you want to watch?")
@@ -11,9 +11,9 @@ console.log(parts)
 
 
 if (parts < 11) {
-  alert("Enjoy");
+  alert("Enjoy Watching");
 } else {
-  alert("Enjoy");
+  alert("Enjoy Your Time");
 }
 
 
