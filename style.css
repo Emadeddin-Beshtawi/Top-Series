@@ -1,0 +1,32 @@
+header{
+  height: 90px;
+}
+h1{
+  float: left;
+}
+nav{
+  float: right;
+}
+h1{
+  float: left;
+}
+nav{
+  float: right;
+}
+    p{
+      color:red;
+    }
+
+   
+.colorGrey{
+      color: grey
+    }
+    
+
+    header ul li{
+      display: line-block;
+
+    }
+
+    a{
+      text-decoration: none
