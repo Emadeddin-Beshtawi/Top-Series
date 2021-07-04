@@ -17,6 +17,26 @@ for (var i=0; i< parts ; i++) {
 
 }
 
+var stars = prompt('How many stars do you rate our website ?')
+
+
+
+function starsFun(num){
+ var output = '' 
+for(var i = 0 ; i < num; i++) {
+  console.log(output);
+  output = output +  "<img src='https://cms-assets.tutsplus.com/uploads/users/34/posts/30118/preview_image/star-rating.jpg' alt='stars'>"
+}
+ 
+ return output;
+}
+
+
+document.write(starsFun(stars))
+
+
+
+
 // if( favSeries == "Vikings" ){
 // var parts= prompt("How many parts do you want to watch? ")
 
